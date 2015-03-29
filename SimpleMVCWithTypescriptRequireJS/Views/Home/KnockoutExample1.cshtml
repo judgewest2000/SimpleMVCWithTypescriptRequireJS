@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "KnockoutExample1";
+}
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Knockout Example</h1>
+        <p>This is an example of using requireJS / knockout / knockout validation / knockout mapping with all its diversity / with error events</p>
+        <p>Remove all characters from Name</p>
+    </div>
+</div>
+
+<form>
+    <h3>Name:</h3>
+    <input class="form-control" data-bind="value: name, valueUpdate: 'afterkeydown'" /><span data-bind="text: name"></span>
+    <h3>Age:</h3>
+    <input class="form-control" data-bind="value: age, valueUpdate: 'afterkeydown'" /><span data-bind="text: age"></span>
+</form>

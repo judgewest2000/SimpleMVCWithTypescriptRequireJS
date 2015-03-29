@@ -30,5 +30,9 @@ namespace SimpleMVCWithTypescriptRequireJS.Controllers
         public ActionResult ViewWithTypescript() {
             return View();
         }
+
+        public ActionResult KnockoutExample1() {
+            return View();
+        }
     }
 }

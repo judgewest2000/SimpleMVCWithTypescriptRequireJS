@@ -179,6 +179,9 @@
     <Content Include="Scripts\jquery.validate.min.js.map">
       <DependentUpon>jquery.validate.min.js</DependentUpon>
     </Content>
+    <Content Include="Views\Home\KnockoutExample1.cshtml" />
+    <Content Include="Scripts\knockout.validation.js" />
+    <TypeScriptCompile Include="Scripts\Controllers\Home\KnockoutExample1.ts" />
     <TypeScriptCompile Include="Scripts\custom\DoNothing.ts" />
     <TypeScriptCompile Include="Scripts\custom\Global.ts" />
     <TypeScriptCompile Include="Scripts\custom\globalenums.ts" />
@@ -205,6 +208,9 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\ViewWithTypescript.cshtml" />
+    <TypeScriptCompile Include="Scripts\typings\knockout.mapping\knockout.mapping.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\knockout.validation\knockout.validation.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\knockout\knockout.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\underscore\underscore.d.ts" />
   </ItemGroup>
   <ItemGroup>
