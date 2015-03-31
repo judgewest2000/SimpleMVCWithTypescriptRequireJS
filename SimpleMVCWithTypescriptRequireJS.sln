@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVCWithTypescriptRequireJS", "SimpleMVCWithTypescriptRequireJS\SimpleMVCWithTypescriptRequireJS.csproj", "{6C6D68A1-3E56-4A7B-AD1B-E62DA55C8B6C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{FD57F569-B401-419F-B83B-F1591D813A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMVCWithTypescriptRequireJS.Data.Domain", "SimpleMVCWithTypescriptRequireJS.Data.Domain\SimpleMVCWithTypescriptRequireJS.Data.Domain.csproj", "{7B37A271-7EAB-4B96-91A2-6854A9E232AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{6C6D68A1-3E56-4A7B-AD1B-E62DA55C8B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C6D68A1-3E56-4A7B-AD1B-E62DA55C8B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C6D68A1-3E56-4A7B-AD1B-E62DA55C8B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B37A271-7EAB-4B96-91A2-6854A9E232AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B37A271-7EAB-4B96-91A2-6854A9E232AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B37A271-7EAB-4B96-91A2-6854A9E232AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B37A271-7EAB-4B96-91A2-6854A9E232AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B37A271-7EAB-4B96-91A2-6854A9E232AD} = {FD57F569-B401-419F-B83B-F1591D813A19}
 	EndGlobalSection
 EndGlobal

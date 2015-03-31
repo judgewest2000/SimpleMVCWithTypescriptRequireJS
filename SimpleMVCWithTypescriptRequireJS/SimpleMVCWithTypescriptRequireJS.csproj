@@ -119,6 +119,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionAttributes\InjectJsonAttribute.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -226,6 +227,12 @@
     <TypeScriptCompile Include="Scripts\custom\calculator.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\require\require.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleMVCWithTypescriptRequireJS.Data.Domain\SimpleMVCWithTypescriptRequireJS.Data.Domain.csproj">
+      <Project>{7b37a271-7eab-4b96-91a2-6854a9e232ad}</Project>
+      <Name>SimpleMVCWithTypescriptRequireJS.Data.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

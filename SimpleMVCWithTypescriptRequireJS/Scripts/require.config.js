@@ -8,7 +8,8 @@ require.config({
         "knockout": "knockout",
         "knockout.mapping": "knockout.mapping",
         "underscore": "underscore",
-        "knockout.validation": "knockout.validation"
+        "knockout.validation": "knockout.validation",
+        "text": "text"
     },
     shim: {
         "bootstrap": { deps: ["jquery"] }

@@ -12,6 +12,7 @@
 </div>
 
 <form>
+    <input type="hidden" id="mainData" data-model="@ViewBag.Json" />
     <h3>Name:</h3>
     <input class="form-control" data-bind="value: name, valueUpdate: 'afterkeydown'" /><span data-bind="text: name"></span>
     <h3>Age:</h3>

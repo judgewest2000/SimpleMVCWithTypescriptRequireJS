@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SimpleMVCWithTypescriptRequireJS.ActionAttributes;
+using SimpleMVCWithTypescriptRequireJS.Data.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -31,8 +33,17 @@ namespace SimpleMVCWithTypescriptRequireJS.Controllers
             return View();
         }
 
+        [InjectJson]
         public ActionResult KnockoutExample1() {
-            return View();
+
+            var person = new Person
+            {
+                Name = "Jeff",
+                Age = 50
+            };
+
+
+            return View(person);
         }
     }
 }
